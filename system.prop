@@ -6,3 +6,12 @@ persist.camera.sat.fallback.lux.d=20
 
 # Paranoid Sense
 ro.face.sense_service.camera_id=5
+
+# Enable or disable ScrollOptimizer globally
+persist.sys.perf.scroll_opt = true
+
+# Heavy app handling mode
+# 0 - Disable heavy app classification
+# 1 - Enable dynamic detection (based on frame duration and buffer load)
+# 2 - Treat all apps as heavy for performance
+persist.sys.perf.scroll_opt.heavy_app = 1
